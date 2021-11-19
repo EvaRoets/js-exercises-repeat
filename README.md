@@ -5,4 +5,4 @@
 
 
 ## 🎯 Objectives
-- Solidy JavaScript skills with exercises increasing in difficulty as you progress 
+- Solidify JavaScript skills with exercises increasing in difficulty as you progress 
