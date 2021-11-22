@@ -23,9 +23,8 @@ h1 {
   font-size: 3rem;
 }
 
-p{
-  font-size:2rem;
-  padding:.5rem 0;
+ol {
+  list-style-type: decimal;
 }
 
 li{
