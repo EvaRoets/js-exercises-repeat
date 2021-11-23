@@ -4,5 +4,9 @@
 (function() {
 
     // your code here
+    let yourName = prompt("Please enter your name", "Bond. James, Bond");
+    if (yourName != null) {
+        alert (`Hello, ${yourName}!`);
+    }
 
 })();

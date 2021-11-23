@@ -5,4 +5,23 @@
 
     // your code here
 
+    let age = prompt("Please enter your name");
+    let gender = prompt("What is your gender");
+    let town = prompt("Which town do you live in?");
+
+
+    let correctInfo = confirm(`Is the following information correct? 
+                    Age: ${age}
+                    Gender: ${gender}
+                    Town: ${town}`)
+
+    if (correctInfo == true) {
+        alert("Thank you for confirming your information")
+    } else {
+        prompt("Please enter your name");
+        prompt("What is your gender");
+        prompt("Which town do you live in?");
+    }
+
+
 })();
