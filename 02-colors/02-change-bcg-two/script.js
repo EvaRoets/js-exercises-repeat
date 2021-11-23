@@ -5,4 +5,11 @@
 
     // your code here
 
+    let colorInput = document.getElementById('color')
+    let run = document.getElementById('run')
+
+    run.addEventListener('click', function() {
+        document.body.style.backgroundColor = colorInput.value;
+    })
+
 })();
