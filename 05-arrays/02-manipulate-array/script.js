@@ -3,7 +3,7 @@
 
 (function() {
 
-    var fruits = [
+    let fruits = [
         "pomme",
         "poire",
         "fraise",
@@ -17,5 +17,16 @@
     ];
 
     // your code here
+    let run = document.getElementById('run');
 
+    run.addEventListener('click', () =>{
+    fruits[0] = "banana";
+    fruits[9] = "kiwi";
+
+        // fruits.shift()
+        // fruits.pop()
+        // fruits.push('kiwi')
+        // fruits.unshift('banana')
+        console.log(fruits)
+    })
 })();
