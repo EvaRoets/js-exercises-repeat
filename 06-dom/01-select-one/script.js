@@ -4,5 +4,7 @@
 (function() {
 
     // your code here
+    let target = document.getElementById('target');
+    target.innerHTML = "Owned!"
 
 })();

@@ -4,5 +4,7 @@
 (function() {
 
     // your code here
+    let target = document.querySelector('#target');
+    target.innerHTML = "Owned again!"
 
 })();

@@ -4,5 +4,9 @@
 (function() {
 
     // your code here
+    let target = document.querySelectorAll('.target');
+    target.forEach(target => {
+        target.innerHTML = "Owned once again!";
+    })
 
 })();
