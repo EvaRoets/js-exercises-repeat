@@ -3,7 +3,7 @@
 
 (function() {
 
-    var fruits = [
+    let fruits = [
         "cerise",
         "durian",
         "pomme",
@@ -21,4 +21,11 @@
     ];
 
     // your code here
+
+    let run = document.getElementById('run');
+
+    run.addEventListener('click', () => {
+        let uniqueFruits = [...new Set(fruits)];
+        console.log(uniqueFruits)
+    })
 })();

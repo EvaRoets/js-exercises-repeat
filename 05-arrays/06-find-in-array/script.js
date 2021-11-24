@@ -83,4 +83,17 @@
 
     // your code here
 
+    let run = document.getElementById('run');
+
+    run.addEventListener('click', () => {
+        // people.forEach(person => {
+        //     if(`${person.firstname}`=== 'Jean' && `${person.lastname}` === 'Dupont')
+        //     console.log(`${person.email}`)
+        // })
+
+        let jeanDupont = people.find(person => person.firstname === 'Jean' && person.lastname === 'Dupont')
+        console.log (jeanDupont.email)
+        console.log(people.indexOf(jeanDupont));
+    });
+
 })();

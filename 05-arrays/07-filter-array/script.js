@@ -3,7 +3,7 @@
 
 (function() {
 
-    var people = [
+    let people = [
         {
             firstname: "Dreddy",
             lastname: "Nussgen",
@@ -82,5 +82,11 @@
     ];
 
     // your code here
+    let run = document.getElementById('run');
+
+    run.addEventListener('click', () => {
+        let eighteenPlus = people.filter(person => person.age > 18)
+        console.log(eighteenPlus)
+    })
 
 })();

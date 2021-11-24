@@ -1,9 +1,9 @@
 // NOTE: don't focus on the existing code structure for now.
 // You will have time to focus on it later.
 
-(function() {
+(function () {
 
-    var people = [
+    let people = [
         {
             firstname: "Grenville",
             lastname: "Stive",
@@ -82,5 +82,10 @@
     ];
 
     // your code here
+    let run = document.getElementById('run');
 
+    run.addEventListener('click', () => {
+        let totalAge = people.reduce((total, person) => (total = person.age), 0);
+        console.log(totalAge)
+    });
 })();
