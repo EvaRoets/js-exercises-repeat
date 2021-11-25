@@ -18,11 +18,4 @@
     table.appendChild(tableBody);
     target.appendChild(table)
 
-
-
-
-
-
-
-
 })();
