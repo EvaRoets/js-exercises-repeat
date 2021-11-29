@@ -1,4 +1,6 @@
-const theGreatestMusicCollectionForVerou = [
+// const music = [
+const music = [
+
     {
         title: 'Friday',
         author: 'Rebecca Black',
@@ -43,21 +45,70 @@ const theGreatestMusicCollectionForVerou = [
     },
 ]
 
-// Following todo's can all be done separately
+
+// Following to-dos can all be done separately
 // If there is no restriction mentioned in the task, you can use all language features you want to use
 // Best of luck! 🎶
 
 // --- Basics ---
 // TODO: select the author of Baiana
+music.forEach((songs) => {
+    console.log(music[3].author);
+});
+
+
+
 // TODO: log all song titles
 // TODO: use the find function to select the song by Rammstein
 // TODO: do the same to select all songs by Bakermat. Is the find function the right choice here? If not, what would be a better one? (don't use for or foreach)
 
+
+// --- Basics ---
+// TODO: select the author of Baiana
+// music.forEach(function(collection){
+//     console.log (music[3].author);
+// });
+
+// TODO: log all song titles
+// music.forEach((collection) => {
+//     console.log(collection.title);
+// });
+
+// TODO: use the find function to select the song by Rammstein
+// const songRammstein = music.find((collection) => {
+//     return collection.title === 'Sonne'
+// });
+// console.log(songRammstein)
+
+// TODO: do the same to select all songs by Bakermat. Is the find function the right choice here? If not, what would be a better one? (don't use for or foreach)
+// const songsBakermat = music.filter((collection) => {
+//     return collection.author === "Bakermat";
+// });
+// console.log(songsBakermat);
+
+
 // --- Intermediate ---
 // TODO: log all pop songs
+// const popSongs = music.filter((collection) => {
+//     return collection.genre === "pop";
+//     });
+// console.log (popSongs);
+
 // TODO: write a function that always returns the first song (full object is okay)
-// TODO: write a function that will return a song at the index of your chosing. You may not use a global var for this index
+// const firstSong = music[0];
+// console.log (firstSong);
+
+// TODO: write a function that will return a song at the index of your choosing. You may not use a global var for this index
+const chooseSong = () => {
+
+}
+
 // TODO: write a function that will return a random song. Use a separate function for the random selection
+// const randomSongSelection = () => {
+//     let randomSong = music[Math.floor(Math.random() * music.length)];
+//     console.log(randomSong);
+// };
+// randomSongSelection();
 
 // --- Advanced ---
 // TODO: write a function that will suggest you a random song from a genre of your chosing. You may use any techniques you want, but try to think about which ones make most sense
